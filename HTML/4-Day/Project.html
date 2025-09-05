@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>University Registration Form</h1>
+    <p>Please Fill out the form below to register</p>
+    <hr>
+    <form>
+            <!-- Personal Details -->
+             <h2>Personal Details</h2>
+                    <!-- First Name -->
+                    <label for="fname">First Name</label>
+                    <input type="text" name="name" id="fname" placeholder="e.g Jayant" required>
+                    <br><br>
+                    <!-- Last Name -->
+                    <label for="lname">Last Name</label>
+                    <input type="text" name="lastname" id="lname" placeholder="e.g, Kumar">
+                    <br><br>
+
+                    <!-- DOB -->
+                    <Label for="dob">Date of Birth</Label>
+                    <input type="date" name="dob" id="dob">
+                    <br><br>
+
+                    <!-- Gender -->
+                    <label for="gender">Gender</label>
+                    <br>
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="female" value="male">
+                    <label for="other">Other</label>
+                    <input type="radio" name="gender" id="other" value="male">
+                    <br><br>
+
+                    <!-- Upload Photo -->
+                    <h3>Upload Photo</h3>
+                    <input type="file" name="file">
+
+                    <hr>
+            <!-- Contact Details -->
+            <h2>Contact Information</h2>
+                    <!-- Email Address -->
+                    <label for="email">Email Address</label>
+                    <input type="email" name="name" id="email">
+                    <br><br>
+
+                    <!-- Phone No -->
+                     <label for="phone">Phone Number</label>
+                     <input type="tel" name="phone" id="phone">
+                     <br><br>
+
+                     <!-- Address -->
+                      <label for="address">Mailing Address</label>
+                      <br>
+                      <textarea name="address" id="address" rows="10" cols="30"></textarea>
+
+            <!-- Academic Information -->
+                <h2>Academic Information</h2>
+                    <!-- Select Your Course -->
+                    <label for="couse">Select Your Course</label>
+                    <select name="course" id="course">
+                        <option value="CSE">CSE</option>
+                        <option value="me">ME</option>
+                        <option value="ee">EE</option>
+                    </select>
+                    <br><br>
+                 <!-- ExtraCurricular   -->
+                <label for="extra">ExtraCurricular Interest</label>
+                <br>
+                <label for="Sports">Sports</label>
+                <input  type="checkbox" name="Interest" id="sports" value="Sports">
+                <br>
+                <label for="Music">Sports</label>
+                <input  type="checkbox" name="Interest" id="Music" value="Music">
+                <br>
+                <label for="Volunteering">Sports</label>
+                <input  type="checkbox" name="Interest" id="Volunteering" value="Volunteering">
+
+                <hr>
+            <!-- Create Your Account -->
+                <h2>Create Your Account</h2>
+                    <label for="pass">Create Password</label>
+                    <input type="password" name="password" id="pass">
+                    <br><br>
+
+                    <label for="secu">Security Anser</label>
+                    <input type="text" name="Security" id="secu">
+                    <br><br>
+
+            <hr>
+            <!-- Register -->
+                <button type="submit">Register</button>
+                <button type="reset">Clear Form</button>
+    </form>
+
+
+</body>
+</html>
