@@ -1,0 +1,31 @@
+.container{
+    background-color: antiquewhite;
+    display: flex;
+    height: 1000px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 7px;
+}
+
+.box{
+    height: 100px;
+    width: 200px;
+}
+
+.Box1{
+    background-color: orange;
+    flex-grow: 1;
+    flex-basis: 200px;
+}
+.Box2{
+    background-color: green;
+    flex-grow: 2px;
+}
+.Box3{
+    background-color: red;
+}
+.Box4{
+    background-color: greenyellow;
+}
